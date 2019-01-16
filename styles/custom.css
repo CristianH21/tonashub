@@ -1,7 +1,59 @@
-.jumbotron{
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
+body{
+    overflow-x: hidden;
+}
+.btn, .form-control{
+    border-radius: 2px;
+}
+.navbar{
+    height: 100px;
+}
+.navbar-brand{
+    font-size: 24pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.jumbotron.hero{
+    background-image: url("../images/clouds-fog-forest.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    margin-bottom:0;
+    color:#fff;
+}
+.jumbotron.hero h1{
+    margin-top: 100px;
+}
+.jumbotron.opt-in{
+    padding: 50px 0;
+    margin-bottom:0;
+    background-color: rgb(252, 41, 69);
+    box-shadow: 0px 3px 15px 0px #999;
+}
+.jumbotron.opt-in h3{
+    padding-bottom: 30px;
+    text-align: center;
+    color:#fff;
+    font-weight: 600;
+}
+.jumbotron.opt-in input{
+    padding:25px 20px;
+    font-size: 14pt;
+
+}
+.jumbotron.opt-in button{
+    padding:13px 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #333;
+
+}
+.profile-img{
     background-image: url("../images/clouds-fog-forest.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:400px;
+    height:500px;
 }
